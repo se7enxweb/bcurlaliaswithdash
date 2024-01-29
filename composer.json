@@ -1,11 +1,17 @@
 {
-    "name": "brookinsconsulting/bcurlaliaswithdash",
+    "name": "se7enxweb/bcurlaliaswithdash",
     "description": "BC Url Alias With Dash is a simple eZ Publish Platform (Legacy) kernel override extension which overrides the default ezchartransform class to provide a simple feature it allows all content urls to be separated by a dash character rather than the default underscor character. Great for advanced developers!",
     "type": "ezpublish-legacy-extension",
     "keywords": [ "eZ Publish", "eZ Publish Legacy", "eZ Publish Platform", "kernel override", "class", "ezchartransform", "extension", "urlalias", "override" ],
-    "homepage": "https://github.com/brookinsconsulting/bcurlaliaswithdash",
-    "license": "GPL-2.0+",
+    "homepage": "https://github.com/se7enxweb/bcurlaliaswithdash",
+    "license": "GPL-2.0-or-later",
     "authors": [
+        {
+            "name" : "7x",
+            "homepage": "https://se7enx.com",
+            "email": "info@se7enx.com",
+            "role": "Developer"
+        },
         {
             "name" : "Brookins Consulting",
             "homepage": "http://brookinsconsulting.com",
@@ -21,7 +27,7 @@
     "minimum-stability": "dev",
     "require": {
         "php": ">=5.0.0",
-        "ezsystems/ezpublish-legacy-installer": "*"
+        "se7enxweb/ezpublish-legacy-installer": "*"
     },
     "extra": {
         "ezpublish-legacy-extension-name": "bcurlaliaswithdash"
